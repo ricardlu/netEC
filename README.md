@@ -1,7 +1,7 @@
 # netEC
 emergent network constraint on climate sensitivity
 
-netEC provides weighted estimates of ECS and TCR 
+netEC provides weighted estimates of ECS and TCR based on the evaluation of SST networks reconstructed from CMIP6 historical SST output over the time period 1975-2014
 
 The protocol is the following:
 
@@ -16,3 +16,12 @@ The protocol is the following:
   - Metric Distance Average Causal Effect (D_ACE) which is the distance between maps labeled with the ACE of the region, where ACE is the average of the total causal effect of each region 
 6) Calculate performance weights (ClimWIP approach)
 7) Calculate and plot weighted estimates of ECS and TCR
+
+
+# Useful links 
+
+COBEv2 https://psl.noaa.gov/data/gridded/data.cobe2.html
+HadISST  https://www.metoffice.gov.uk/hadobs/hadisst/data/download.html
+CMIP6 output https://esgf-node.llnl.gov/projects/cmip6/
+Region inference and strength estimate with delta-MAPS :  https://github.com/FabriFalasca/delta-MAPS
+Causal discovery and causal effects estimate with Tigramite : https://github.com/jakobrunge/tigramite
