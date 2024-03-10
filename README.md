@@ -5,7 +5,7 @@ netEC provides weighted estimates of ECS and TCR
 
 The protocol is the following:
 
-1) Load nc file of CMIP6 model output of SST (or any other SST field you have) and pre-process SST data with Climate Data Operator (CDO)
+1) Load nc file of CMIP6 model output of SST (or any other SST dataset you have) and pre-process SST data with Climate Data Operator (CDO)
 2) Load referent SST files (nc file of HadISST and COBEv2). Pre-processed data are given in Data/ 
 4) Load referent network (causal graph) inferred in reference HadISST dataset, which consists of:
    - referent regions of Sea Surface Temperature (SST) inferred with delta-MAPS algorithm (binary maps)
