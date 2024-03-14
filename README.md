@@ -1,5 +1,5 @@
 # netEC
-[![DOI](https://zenodo.org/badge/769948700.svg)]
+[DOI](https://zenodo.org/badge/769948700.svg)
 
 emergent network constraint on climate sensitivity
 
